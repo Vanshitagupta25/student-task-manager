@@ -25,7 +25,7 @@
 }
 .todo-input-box {
   position: relative;
-  padding-bottom: 60px; /* space for button */
+  padding-bottom: 60px;
 }
 
 .add-btn {
