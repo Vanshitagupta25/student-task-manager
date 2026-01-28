@@ -7,7 +7,13 @@ import auth from "./routes/auth.js"
 import list from "./routes/list.js"
 dotenv.config();
 
-app.use(cors());
+app.use(
+  cors({
+    origin: "http://localhost:5173",
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true,
+  })
+);
 app.use(express.json());
 app.use("/api/v1", auth);
 app.use("/api/v2", list);

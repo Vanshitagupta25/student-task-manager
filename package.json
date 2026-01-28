@@ -1,0 +1,14 @@
+{
+  "name": "student-task-manager",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A full-stack student task management application using MERN stack",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd backend && npm start",
+    "client": "cd frontend && cd client && npm run dev"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
