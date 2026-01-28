@@ -25,6 +25,25 @@ npm run dev
 Frontend runs on:
 http://localhost:5173
 
+🔄 Run Full Application with One Command (CORS Enabled)
+
+This project uses CORS and concurrently to run both the backend and frontend together with a single command.
+
+From the project root directory, run:
+
+npm install
+npm run dev
+
+What this does:
+
+Starts Backend (Express + MongoDB) on http://localhost:2000
+
+Starts Frontend (React + Vite) on http://localhost:5173
+
+Uses CORS middleware in server.js to allow frontend–backend communication across ports
+
+Eliminates the need to run frontend and backend separately
+
 Environment Requirements
 Node.js (v18 or higher)
 MongoDB (Local or MongoDB Atlas)
