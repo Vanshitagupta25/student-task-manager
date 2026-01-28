@@ -1,0 +1,88 @@
+.todo {
+  width: 100%;
+  min-height: 100vh;
+  background: #f7f9fc;         
+  padding-top: 40px;
+  padding-bottom: 40px;
+  position: relative;
+}
+.todo-main {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+.todo-inputs input {
+  padding: 12px 14px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  border: 1px solid #d9e2ec;   
+  outline: none;
+  transition: all 0.3s ease;
+  font-size: 15px;
+  background: #fdfdfd;
+}
+.todo-input-box {
+  position: relative;
+  padding-bottom: 60px; /* space for button */
+}
+
+.add-btn {
+  position: absolute;
+  bottom: 15px;
+  right: 15px;
+  padding: 8px 22px;
+}
+
+
+.todo-inputs input::placeholder {
+  color: #9ba9b4;                
+}
+
+.todo-inputs input:focus {
+  border-color: #7aa7ff;      
+  box-shadow: 0 0 5px rgba(122,167,255,0.4);
+}
+.empty-state {
+  font-size: 1.1rem;
+  color: #888;
+  font-style: italic;
+}
+.todo-update {
+  width: 100%;
+  height: 80vh;
+  position: absolute;
+  position: fixed;
+  top: 80px;
+  left: 0px;
+  display: none;
+}
+#todo-update .container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.todo-inputs {
+  width: 30%;
+  transition: width 0.3s ease;
+}
+
+@media (max-width: 992px) {
+  .todo-inputs {
+    width: 60%;
+  }
+}
+
+@media (max-width: 576px) {
+  .todo-inputs {
+    width: 100%;
+  }
+
+  .todo-inputs input {
+    font-size: 14px;
+    padding: 10px 12px;
+  }
+}
+

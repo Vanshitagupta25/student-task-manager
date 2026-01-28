@@ -1,0 +1,23 @@
+.footer {
+  background: #222;
+  color: #ffffff;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer h4 {
+  font-weight: 600;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.footer p {
+  margin: 0;
+  font-size: 0.95rem;
+  opacity: 0.9;
+}

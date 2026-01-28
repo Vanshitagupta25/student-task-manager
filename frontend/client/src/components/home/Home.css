@@ -1,0 +1,42 @@
+/* Light pastel gradient background */
+.home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #fdfbfb, #ebedee);  /* Soft grey-white */
+  color: #333;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Title styling */
+.home h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #2c3e50; /* Dark soft navy */
+  line-height: 1.3;
+}
+
+/* Subtitle paragraph */
+.home p {
+  font-size: 1.2rem;
+  color: #5a5a5a;
+  margin-bottom: 30px;
+}
+
+/* Button */
+.home-btn {
+  background: #a8dadc; /* Soft teal */
+  border: none;
+  padding: 12px 25px;
+  font-size: 1.1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1d3557; /* Dark desaturated blue */
+  transition: 0.3s ease;
+}
+
+.home-btn:hover {
+  background: #89c2d9; /* Slightly darker teal */
+  transform: translateY(-2px);
+}

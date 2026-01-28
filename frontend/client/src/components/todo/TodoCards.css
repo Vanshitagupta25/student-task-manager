@@ -1,0 +1,65 @@
+.todo-card {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 18px;
+  height: 220px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 5px 20px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+  overflow: hidden;
+}
+
+.todo-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+.todo-title {
+  margin: 0;
+  overflow: hidden;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  max-width: 100%;
+}
+.todo-body {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 10px;
+  line-height: 1.5;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+}
+.todo-body-text {
+  margin-top: 10px;
+  font-size: 15px;
+  color: #333;
+  overflow: hidden;
+}
+
+.card-icons {
+  cursor: pointer;
+  border: none;
+  font-size: 15px;
+  font-size: 20px;
+  transition: 0.2s;
+}
+
+.todo-icons:hover {
+  color: #89c2d9;
+}
+.up {
+  color: rgb(0, 26, 255);
+}
+
+.del {
+  color: #e63946;
+}
+
+.del:hover {
+  color: #b31f2d;
+}
